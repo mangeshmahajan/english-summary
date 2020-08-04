@@ -155,36 +155,39 @@ body{
 
 
 
-
+.m-full{
+    background: linear-gradient(180deg, #000000 0%, #3d3d3d 100%);
+    height: 100vh;
+    width: 100%;
+}
 
 
 
 .main-page{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: linear-gradient(180deg, #000000 0%, #3d3d3d 100%);
+    height: 100vh;    
     
+    padding: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
 
-    /* display: grid; */
-    padding: 0 30px;
-    position: fixed;
-
-    /* grid-template-rows: 20% 30% 30%;
     
-    grid-template-areas: 
-    "." "name" "heading"; */
+    
+}
 
-
+.m-container{
+    
+    
 }
 
 .main-page p{
     grid-area: name;
-    color: white;
+    color: rgb(230, 230, 230);
     font-weight: lighter;
     opacity: 0.8;
     font-size: small;
-    margin-top: 30vh;
+    
 }
 
 .main-page h1{
@@ -194,13 +197,13 @@ body{
     /* text-shadow:0px 5px 3px rgba(0, 0, 0, 0.5); */
     grid-area: heading;
     font-size: 30px;
-    margin-top: 1vh;
+    
 
 }
 
 .main-page .contents {
     display: block;
-    margin-top: 2.3vh ;
+    margin-top: 10px;
     text-align: center;
     padding: 15px 20px;
     color: black;
@@ -229,6 +232,7 @@ body{
     border: 3px solid white;
     font-size: 14px;
     font-weight: 300;
+    
 }
 
 
@@ -237,11 +241,12 @@ body{
 .read{
     color: rgb(255, 255, 255);
     display: block;
-    margin-top: 12vh;
+    
     padding-left: 2px;
     opacity: .8;
     font-size: small;
     font-weight: 350;
+    margin-top: 100px;
 }
 
 
