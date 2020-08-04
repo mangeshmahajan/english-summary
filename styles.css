@@ -59,6 +59,10 @@ body{
     opacity: .5;
 }
 
+.summary-point{
+   margin: 10vh 0;
+}
+
 .summary-point p{
     font-size: 18.3px;
     line-height: 150%;
@@ -74,15 +78,38 @@ body{
 }
 
 .summary-point h2{
-    margin-top: 37px;
-    margin-bottom: 0px;
+    padding-top: 37px;
+    padding-bottom: 20px;
     font-weight: 900;
     font-size: 27.45px;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 66%,rgba(255,255,255,0) 100%);
+    margin: 0 0 0 -5px;
+    
+    z-index: 50;
 }
+
+
+
 
 .summary-point p{
     margin-top: 18px;    
 }
+
+.summary-point h3{
+    margin-top: 7vh;    
+}
+
+.sub-points-container{
+    width: 95%;
+    margin-left: auto;
+
+    
+}
+
+
+
 
 .reference{
     background: #FFFFEB;
@@ -134,12 +161,17 @@ body{
     opacity: .5;
 }
 
+.copyright{
+    width: 100%;
+    background: rgb(235, 235, 235);
+}
+
 .copyright p{
     text-align: center;
     margin: 0px;
     padding: 18px;
     opacity: .8;
-    background: #e9e9e9;
+    
     font-size: 12.2px;
     line-height: 150%;
 }
@@ -172,8 +204,6 @@ body{
     display: grid;
     place-items: center;
 
-    
-    
 }
 
 .m-container{
@@ -254,4 +284,23 @@ body{
 li{
     margin-bottom: 10px;
     
+}
+
+
+@media (max-width: 400px){
+    .summary-point h2{
+        padding-top: 25px;
+        padding-bottom: 0;
+        top: 0px;
+    }
+
+    .summary-point h3{
+        margin-top: 10vh;    
+    }
+
+    .sub-points-container{
+        padding-left: 20px;
+        width: 100%;
+        border-left: 1px solid rgb(240, 240, 240);
+    }
 }
