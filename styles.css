@@ -112,14 +112,16 @@ body{
 
 
 .reference{
-    background: #FFFFEB;
+    background: #ffffdc;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    padding: 30px 24px;    
+    padding: 30px 24px 20px 24px;    
     font-style: italic;
     font-weight: normal;
     font-size: 18.3px;
     line-height: 150%;
-    margin-bottom: 30px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 7vh;
 
 }
 
@@ -127,7 +129,7 @@ body{
     font-size: 12.5px;
 }
 
-.reference p{
+.reference .ref-details p{
     margin: 0;
 }
 
@@ -144,22 +146,35 @@ body{
 
 .ref-details .small-two{
     margin: 0 0 0 auto;
+    text-align: right;
 }
+
+.two-images .second img{
+    margin-top: 7vh;
+}
+
 
 .reference-img img{
-    width: 100%;
-    margin: 0px;
+    width: 90%;
+    margin: 0 auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    display: block;
 
 }
 
-.reference-img p{
+.reference-img .reference-img-info p{
+
     text-align: right;
     margin: 0 0 33px 0;
     font-style: italic;
     font-size: 13.725px;
     opacity: .5;
+    display: block;
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
 }
+
 
 .copyright{
     width: 100%;
@@ -206,10 +221,7 @@ body{
 
 }
 
-.m-container{
-    
-    
-}
+
 
 .main-page p{
     grid-area: name;
@@ -279,6 +291,11 @@ body{
     margin-top: 100px;
 }
 
+.reference-sentence{
+    font-style: italic;    
+    display: block;
+    margin: 20px 0;
+}
 
 
 li{
